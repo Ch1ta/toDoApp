@@ -1,0 +1,29 @@
+.task {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-areas: "picture text";
+
+    margin: 16px 28px;
+    min-height: 55px;
+    width: 425px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+.picture {
+    grid-area: picture;
+
+    margin: 9px;
+    background-color: #A900C5;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+
+}
+
+.text {
+    grid-area: text;
+
+    margin: 15px;
+
+}
