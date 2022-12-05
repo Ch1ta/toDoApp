@@ -26,7 +26,9 @@ const Todo = (props) => {
 
     return (
         <div className={styles.main}>
-            <div className={styles.header}><Header/></div>
+            <div className={styles.header}>
+                <Header/>
+            </div>
             <Routes>
                 <Route path="/" element={<div className={styles.content}><TaskList tasks={tasks}/></div>}/>
                 <Route path="/:id" element={<div className={styles.content}><TaskInfo tasks={tasks}/></div>}/>

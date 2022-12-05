@@ -1,7 +1,5 @@
 import styles from './App.module.css';
 import Todo from './components/Todo/Todo'
-import {NavLink} from "react-router-dom";
-
 
 function App() {
   return (
