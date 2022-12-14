@@ -1,10 +1,11 @@
-div {
-    font-family: "Open Sans";
+.main{
     grid-area: header;
 
+    font-family: "Open Sans";
     color: white;
     font-size: 16px;
     font-weight: 400;
+
     padding: 13px 25px;
 
     border-radius: 20px 20px 0 0;

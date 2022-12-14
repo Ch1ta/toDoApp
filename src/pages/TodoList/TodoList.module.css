@@ -1,0 +1,41 @@
+.main {
+    width:100%;
+    min-height: 570px;
+    background-color: white;
+
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.item {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-areas: "pic title";
+
+    margin: 0 auto 16px ;
+
+    min-height: 55px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    color: black;
+}
+
+.pic {
+    grid-area: pic;
+
+    margin: 9px;
+    background-color: #A900C5;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+
+}
+
+.title {
+    grid-area: title;
+
+    margin: 15px;
+
+}
